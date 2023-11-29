@@ -21,3 +21,5 @@ at Pvt.Types.Tests.SerializationTests.WithNullables()
 at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
 at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
 ```
+
+DTOs **not** containing collections of nullable types, which do need custom serializers, are serialized and deserialized as expected.
