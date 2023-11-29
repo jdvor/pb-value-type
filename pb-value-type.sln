@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pvt.Types", "Pvt.Types\Pvt.Types.csproj", "{C40C19FC-E321-4027-B656-275DFB0F1B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pvt.Types.Tests", "Pvt.Types.Tests\Pvt.Types.Tests.csproj", "{86BF5B22-624F-4859-AEFF-379D3DD31194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution", "solution", "{1F32AC39-56AC-431C-990F-4EACEE87A36A}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C40C19FC-E321-4027-B656-275DFB0F1B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40C19FC-E321-4027-B656-275DFB0F1B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40C19FC-E321-4027-B656-275DFB0F1B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40C19FC-E321-4027-B656-275DFB0F1B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BF5B22-624F-4859-AEFF-379D3DD31194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BF5B22-624F-4859-AEFF-379D3DD31194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BF5B22-624F-4859-AEFF-379D3DD31194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BF5B22-624F-4859-AEFF-379D3DD31194}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
